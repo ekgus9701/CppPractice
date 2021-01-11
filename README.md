@@ -111,7 +111,8 @@ https://www.inflearn.com/course/c%EC%96%B8%EC%96%B4-%EB%91%90%EB%93%A4%EB%82%99%
  }
  
 2. 인자에 기본값 주기
- void getItem(int itemId, int cnt=1, int sc=0) { //cnt, sc에 기본값을 줌으로써 cnt,sc가 인자로 안들어올 때를 고려
+ void getItem(int itemId, int cnt=1, int sc=0) { 
+ 	//cnt, sc에 기본값을 줌으로써 cnt,sc가 인자로 안들어올 때를 고려
 	//기본값은 오른쪽부터 시작해서 원하는 만큼 입력해야함
 	//void getItem(int itemId, int cnt=1, int sc=0,int a)는 불가!!
 	inventory[itemId] += cnt;
